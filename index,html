@@ -1,0 +1,106 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>My Webpage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<style>
+		body{
+		margin:0 auto;
+		background: white url(images/bg.gif) repeat top left;);
+		}
+		
+		div.sidemenu
+		{
+	text-align:center; 
+	border:1px solid grey; 
+	padding-bottom:10px; 
+	height:650px;
+	width:200px; 
+	background-color: white; margin-right: 2cm; 
+	background: #f4f4f4;
+	z-index:2;
+		}
+		
+		
+		a:hover{
+		background-color: #525355;
+		}
+		
+		img.aboutimage
+		{
+		height:100px;
+		}
+		img.homeimage
+		{
+		height:100px;
+		}
+		
+		
+
+		
+		img.works
+		{
+		height:100px;
+		}
+		
+	
+		
+
+		
+		img.profile
+		{
+		margin-top:20px;
+		margin-left:-12px;
+		height:150px;
+		}
+		
+		div.footer{
+		height:140px;
+		width:1164px;
+		float:left;
+		background:#a8a8a8;
+		margin-top:-140px;
+		margin-left:202px;
+		}
+		
+		p.jeremy{
+		font-family:sans-serif;
+		color:#000d6f;
+		font-size:45px;
+		letter-spacing:2px;
+		}
+		
+		img.mainprofile{
+		height:450px;
+		margin-top:80px;
+		margin-left:500px;
+		z-index:-1;
+		position:absolute;
+		}
+		
+		
+			</style>
+	</head>
+		<body>
+		<div class="maincontent">
+	
+		<img src="images/jem.png" class="mainprofile" />
+		</div>
+			<div class="sidemenu">
+			<img src="images/profile.png" class="profile"/>
+			<a href="index.html" class="homelink"><img src="images/home.png" class="homeimage"/></a>
+			<a href="about.html" class="aboutlink"><img src="images/about.png" class="aboutimage"/></a>
+<a href="works.html" class="workslink"><img src="images/works.png" class="works"/></a>
+			
+			
+			</div>
+			<div class="footer">
+			<center>
+		<p style="letter-spacing:5px;color:white;font-family:tahoma;font-size:25px;">Jeremy Gacayan</p>
+		<p style="letter-spacing:5px;color:darkblue;font-family:tahoma;font-size:18px;margin-top:-15px;">Bachelor of Science in Information Technology</p>
+			<p  style="letter-spacing:5px;color:white;font-family:tahoma;font-size:18px;">PORTFOLIO</p>
+		</center>
+			</div>
+		</body>
+</html>
